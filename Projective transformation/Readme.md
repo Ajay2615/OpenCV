@@ -5,4 +5,6 @@ A projective transformation is a transformation used in projective geometry: it 
 
 OUTPUT:
 
+We can see that AC remote is tilted a bit and we can see some of the info of the remote even though the info on original image is not clear.
+
 ![Untitled](https://user-images.githubusercontent.com/99254412/213634381-18703c46-b522-4180-bd2d-18d29ee7800d.png)
