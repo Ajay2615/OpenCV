@@ -13,6 +13,7 @@ Here, the function cv.medianBlur() takes the median of all the pixels under the 
 cv.bilateralFilter() is highly effective in noise removal while keeping edges sharp. But the operation is slower compared to other filters. We already saw that a Gaussian filter takes the neighbourhood around the pixel and finds its Gaussian weighted average. This Gaussian filter is a function of space alone, that is, nearby pixels are considered while filtering. It doesn't consider whether pixels have almost the same intensity. It doesn't consider whether a pixel is an edge pixel or not. So it blurs the edges also, which we don't want to do.
 
 
+![Screenshot 2023-01-20 122925](https://user-images.githubusercontent.com/99254412/213637404-3c3e5b92-04d7-4030-859b-19af0ff405c8.png)
 
 
 
