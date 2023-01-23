@@ -20,7 +20,11 @@ Vertical Sobel derivative (Sobel y): It is obtained through the convolution of t
 
 ![SobelY](https://user-images.githubusercontent.com/99254412/214059730-fd8e578e-498e-45a3-ba24-2e053d7a2002.png)
 
-Convolution is calculated by the following method: Image represents the original image matrix and filter is the kernel matrix.
+Convolution is calculated by the following method: Image represents the original image matrix and filter is the kernel matrix.Factor = 11 – 2- 2- 2- 2- 2 = 3 
+Offset = 0
+Weighted Sum = 124*0 + 19*(-2) + 110*(-2) + 53*11 + 44*(-2) + 19*0 + 60*(-2) + 100*0 = 117 
+O[4,2] = (117/3) + 0 = 39
+So in the end to get the Laplacian (approximation) we will need to combine the two previous results (Sobelx and Sobely) and store it in laplacian.
 
 
 ![Com_sobel](https://user-images.githubusercontent.com/99254412/214059918-0331e52c-4cc0-44e2-9a0b-318caa5b2f2c.png)
