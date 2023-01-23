@@ -1,0 +1,1 @@
+# Canny edge detection of an image using OpenCV
